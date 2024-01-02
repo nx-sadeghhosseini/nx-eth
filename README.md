@@ -1,4 +1,4 @@
-# NX Ethereum Price Predictor
+# NX Ether Price Predictor
 
 ## What's inside?
 
@@ -26,12 +26,15 @@ In order to run the python project, please make sure python is installed and run
 ```
 python3 -m venv env
 ```
+*(above command, creates a new environment)*
 ```
 source apps/py/env/bin/activate
 ```
+*(above command, activates the new environment)*
 ```
 pip3 install -r apps/py/requirements.txt
 ```
+*(above command, installs all dependencies)*
 
 ### Run
 
