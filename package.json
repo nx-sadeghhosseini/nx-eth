@@ -2,7 +2,8 @@
   "private": true,
   "scripts": {
     "build": "turbo run build",
-    "dev": "turbo run dev",
+    "dev/py": "python3 -m uvicorn apps.py.main:app --port 3001 --reload",
+    "dev": "turbo run dev & npm run dev/py",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
